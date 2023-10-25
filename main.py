@@ -4,7 +4,7 @@ from watchdog.events import FileSystemEventHandler
 import pandas as pd
 import os
 
-diretorio = r'C:\Users\Pedro Moda\Desktop\clientes'
+diretorio = "Coloque aqui o diretório da pasta que vão ser inseridos os arquivos"
 
 
 def on_file_created(event):
